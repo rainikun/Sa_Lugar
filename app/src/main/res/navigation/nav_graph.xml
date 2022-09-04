@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment2">
+
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="cs.bottomNav.salugar.HomeFragment"
+        android:label="fragment_home2"
+        tools:layout="@layout/fragment_home2" />
+    <fragment
+        android:id="@+id/noticesFragment2"
+        android:name="cs.bottomNav.salugar.NoticesFragment"
+        android:label="fragment_notices2"
+        tools:layout="@layout/fragment_notices2" />
+    <fragment
+        android:id="@+id/destinationsFragment2"
+        android:name="cs.bottomNav.salugar.DestinationsFragment"
+        android:label="fragment_destinations2"
+        tools:layout="@layout/fragment_destinations2" />
+    <fragment
+        android:id="@+id/savedFragment2"
+        android:name="cs.bottomNav.salugar.SavedFragment"
+        android:label="fragment_saved2"
+        tools:layout="@layout/fragment_saved2" />
+    <fragment
+        android:id="@+id/settingsFragment2"
+        android:name="cs.bottomNav.salugar.SettingsFragment"
+        android:label="fragment_settings2"
+        tools:layout="@layout/fragment_settings2" />
+</navigation>

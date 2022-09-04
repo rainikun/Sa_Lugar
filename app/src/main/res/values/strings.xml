@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sa Lugar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="skip_intro">SKIP INTRO</string>
+    <string name="string_next">STRING NEXT</string>
+    <string name="next">Next</string>
+    <string name="header_1">Header 1</string>
+</resources>
